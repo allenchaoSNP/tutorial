@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_connect_mssql_user,connect mssql User Access,model_connect_mssql,connect_mssql_group_user,1,0,0,0
+access_connect_mssql_manager,connect mssql Manager Access,model_connect_mssql,connect_mssql_group_manager,1,1,1,1
