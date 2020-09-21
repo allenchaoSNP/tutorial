@@ -1,5 +1,5 @@
 {
-    'name': "demo odoo tutorial",
+    'name': "AllenTest",
     'summary': """
         basic tutorial -
         demo odoo tutorial

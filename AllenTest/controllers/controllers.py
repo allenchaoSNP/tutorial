@@ -3,7 +3,7 @@ from odoo import http
 
 class DemoOdoo(http.Controller):
 
-    @http.route('/demo/odoo', auth='user')  #路徑，auth判斷需登入才可看
+    @http.route('/demo/allen', auth='user')  #路徑，auth判斷需登入才可看
     def list(self, **kwargs):
         obj = http.request.env['demo.odoo.tutorial'] #使用的model
         objs = obj.search([])
