@@ -9,7 +9,7 @@
     , 'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/view.xml',
         'views/menu.xml',
         'controllers/controllers.py',
         ],
