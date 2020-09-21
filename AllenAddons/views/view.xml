@@ -24,7 +24,6 @@
     <record model="ir.actions.act_window" id="action_connect_mssql">
         <field name="name">Connect MSSQL</field>
         <field name="res_model">connect.mssql</field>
-        <field name="view_type">form</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="view_connect_mssql_form"/>
     </record>

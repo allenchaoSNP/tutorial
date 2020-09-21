@@ -15,7 +15,6 @@ class ConnectMssql(models.Model):
                         help="A Select statement or an insert/update/delete instruction")
     result = fields.Text('Result')
 
-    @api.multi
     def execute_query(self, name):
         try:
             import pymssql

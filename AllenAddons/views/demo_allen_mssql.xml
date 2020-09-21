@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="demp_mssql_template" name="Demo connect mssql">
+  <div id="wrap" class="container">
+    <h1>Allen Demo</h1>
+     
+  </div>
+</template>
+
+</odoo>

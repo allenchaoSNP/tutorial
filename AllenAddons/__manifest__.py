@@ -11,6 +11,7 @@
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/menu.xml',
+        'controllers/controllers.py',
         ],
     #, 'images': ['static/description/connect_mssql.png'], #應該是單純的圖式
     'installable': True, #可安裝
