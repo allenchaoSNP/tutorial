@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<template id="demo_odoo_template" name="Demo odoo List">
+<template id="demo_allen_template" name="Demo odoo List">
   <div id="wrap" class="container">
-    <h1>Demo Odoo</h1>
+    <h1>Allen Demo Test</h1>
       <t t-foreach="objs" t-as="obj">
         <div class="row">
           <span t-field="obj.name" />,

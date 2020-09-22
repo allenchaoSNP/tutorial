@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <odoo>
-
+<!--Security必須存在，一移除即便安裝了也找不到-->
   <record id="module_demo_odoo_tutorial" model="ir.module.category">
     <field name="name">Demo odoo tutorial category</field>
   </record>
