@@ -26,7 +26,7 @@
         'security/ir.model.access.csv',
         'views/menu.xml',
         'views/view.xml',
-        'views/demo_odoo_template.xml',
+        'views/demo_allen_template.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [
