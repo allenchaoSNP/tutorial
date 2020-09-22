@@ -4,7 +4,7 @@ from odoo.exceptions import UserError, ValidationError
 class DemoOdooTutorial(models.Model):
     _name = 'demo.odoo.Allen' #name的規範用.隔開，不要用其他的，進到DB時會自動變成demo_odoo_tutorial
     _description = 'AllenTest' #單純說明
-    #_inherit = ['mail.thread', 'mail.activity.mixin'] # track_visibility  繼承
+    _inherit = ['mail.thread', 'mail.activity.mixin'] # track_visibility  繼承
 
     name = fields.Char('Description', required=True)
 
