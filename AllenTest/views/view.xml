@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <odoo>
 
-  <record id="view_form_demo_odoo_Allen" model="ir.ui.view">
-    <field name="name">Demo Odoo Allen Form</field>
-    <field name="model">demo.odoo.Allen</field>
+  <record id="view_form_demo_odoo_tutorial" model="ir.ui.view">
+    <field name="name">Demo Odoo Tutorial Form</field>
+    <field name="model">demo.odoo.tutorial</field>
     <field name="arch" type="xml">
-      <form string="Demo Odoo Allen">
+      <form string="Demo Odoo Tutorial">
         <sheet>
           <group>
             <field name="name"/>
@@ -28,9 +28,9 @@
     </field>
   </record>
 
-  <record id="view_tree_demo_odoo_Allen" model="ir.ui.view">
-    <field name="name">Demo Odoo Allen List</field>
-    <field name="model">demo.odoo.Allen</field>
+  <record id="view_tree_demo_odoo_tutorial" model="ir.ui.view">
+    <field name="name">Demo Odoo Tutorial List</field>
+    <field name="model">demo.odoo.tutorial</field>
     <field name="arch" type="xml">
       <tree>
         <field name="name"/>
