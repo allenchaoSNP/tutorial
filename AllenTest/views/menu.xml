@@ -2,17 +2,17 @@
 <odoo>
     <!-- demo_odoo_tutorial App Menu -->
     <menuitem id="demo_odoo_tutorial_menu"
-              name="Demo Odoo Tutorial" />
+              name="Demo Allen TestMenu" />
 
     <!-- Action to open the demo_odoo_tutorial -->
     <act_window id="action_odoo_tutorial"
-      name="Demo Odoo Tutorial Action"
-      res_model="demo.odoo.tutorial"
+      name="Demo Allen Test Action"
+      res_model="demo.allen.tutorial"
       view_mode="tree,form"/><!--tree相當於gridview模式，form 為一般頁面 -->
 
     <!-- Menu item to open the demo_odoo_tutorial -->
     <menuitem id="menu_odoo_tutorial"
-              name="Demo Odoo Tutorial"
+              name="Demo Allen Tutorial"
 	            action="action_odoo_tutorial"
               parent="demo_odoo_tutorial_menu" />
 </odoo>

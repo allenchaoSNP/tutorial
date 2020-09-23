@@ -2,8 +2,8 @@
 <odoo>
 
   <record id="view_form_demo_odoo_tutorial" model="ir.ui.view">
-    <field name="name">Demo Odoo Tutorial Form</field>
-    <field name="model">demo.odoo.tutorial</field>
+    <field name="name">Demo Allen Test Form</field>
+    <field name="model">demo.allen.tutorial</field>
     <field name="arch" type="xml">
       <form string="Demo Odoo Tutorial">
         <sheet>
@@ -30,7 +30,7 @@
 
   <record id="view_tree_demo_odoo_tutorial" model="ir.ui.view">
     <field name="name">Demo Odoo Tutorial List</field>
-    <field name="model">demo.odoo.tutorial</field>
+    <field name="model">demo.allen.tutorial</field>
     <field name="arch" type="xml">
       <tree>
         <field name="name"/>
