@@ -1,11 +1,12 @@
 {
-    'name': "Odoo Allen測試",
+    'name': "demo odoo tutorial",
     'summary': """
         basic tutorial -
         demo odoo tutorial
     """,
     'description': """
-       說明內容:Allen Odoo 測試
+        basic tutorial -
+        demo odoo tutorial
     """,
     'author': "My Company",
     'website': "http://www.yourcompany.com",
@@ -23,8 +24,10 @@
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
+        'data/data_demo_odoo.xml',
         'views/menu.xml',
         'views/view.xml',
+        'reports/report.xml',
         'views/demo_odoo_template.xml',
     ],
     # only loaded in demonstration mode
