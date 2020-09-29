@@ -7,7 +7,7 @@
     <!-- Action to open the demo_odoo_tutorial -->
     <act_window id="action_odoo_tutorial"
       name="Demo Odoo Tutorial Action"
-      res_model="demo.odoo.tutorial"
+      res_model="test.allen.mssql"
       view_mode="tree,form"/><!--tree相當於gridview模式，form 為一般頁面 -->
 
     <!-- Menu item to open the demo_odoo_tutorial -->
