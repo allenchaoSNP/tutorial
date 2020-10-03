@@ -24,7 +24,6 @@
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-        'views/menu.xml',
         'views/view.xml',
         'views/demo_odoo_template.xml',
     ],

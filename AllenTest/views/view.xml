@@ -1,9 +1,39 @@
 <?xml version="1.0"?>
 <odoo>
 
-  <record id="view_form_demo_odoo_tutorial" model="ir.ui.view">
+ <record model="ir.ui.view" id="view_connect_mssql_form">
+        <field name="name">connect.mssql.form</field>
+        <field name="model">connect.mssql</field>
+        <field name="arch" type="xml">
+            <form string="Connect MSSQL">
+                <sheet>
+                    <group>
+                        <field name="server_name"  placeholder="ex. www.someserver.com"/>
+                        <field name="database_name"/>
+                        <field name="user_name"/>
+                        <field name="password"  password="True"/>
+                        <field name="query" placeholder="Select * from sometable"/>
+                        <button name="execute_query" string="Execute Query"  icon="fa-refresh" type="object"/>
+                    </group>
+                    <field name="result"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_connect_mssql">
+        <field name="name">Connect MSSQL</field>
+        <field name="res_model">connect.mssql</field>
+        <!--<field name="view_type">form</field> 這段在odoo13已被移除-->
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_connect_mssql_form"/>
+    </record>
+
+    <menuitem name="Connect MSSQL" id="menu_connect_mssql" parent="base.next_id_9" action="action_connect_mssql"/>
+
+  <!-- <record id="view_form_demo_odoo_tutorial" model="ir.ui.view">
     <field name="name">Demo Odoo Tutorial Form</field>
-    <field name="model">demo.odoo.tutorial</field>
+    <field name="model">test.allen.mssql</field>
     <field name="arch" type="xml">
       <form string="Demo Odoo Tutorial">
         <sheet>
@@ -30,7 +60,7 @@
 
   <record id="view_tree_demo_odoo_tutorial" model="ir.ui.view">
     <field name="name">Demo Odoo Tutorial List</field>
-    <field name="model">demo.odoo.tutorial</field>
+    <field name="model">test.allen.mssql</field>
     <field name="arch" type="xml">
       <tree>
         <field name="name"/>
@@ -40,5 +70,5 @@
         <field name="stop_datetime"/>
       </tree>
     </field>
-  </record>
+  </record> -->
 </odoo>

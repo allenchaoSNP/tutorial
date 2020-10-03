@@ -5,7 +5,7 @@ class DemoOdoo(http.Controller):
 
     @http.route('/allen/showcontrol', auth='user')  #路徑，auth判斷需登入才可看
     def list(self, **kwargs):
-        obj = http.request.env['demo.odoo.tutorial'] #使用的model
+        obj = http.request.env['test.allen.mssql'] #使用的model
         objs = obj.search([])
         return http.request.render(
             'AllenTest.demo_odoo_template',{'objs': objs}) #指定到demo_odoo_tutorial(controllers資料夾上層資料夾名稱)下template的ID為demo_odoo_template的頁面
