@@ -15,7 +15,7 @@
                         <field name="query" placeholder="Select * from sometable"/>
                         <button name="execute_query" string="Execute Query"  icon="fa-refresh" type="object"/> -->
                     </group>
-                    <field name="result"/>
+                    <!-- <field name="result"/> -->
                 </sheet>
             </form>
         </field>
