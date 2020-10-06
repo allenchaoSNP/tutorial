@@ -14,7 +14,7 @@ class ConnectMssql(models.Model):
 
     #@api.multi odoo13中已內建，不需呼叫
     def execute_query(self, name):
-        try: 
+        try:
             import pymssql
 
             # Connection Parameters
