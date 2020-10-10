@@ -8,6 +8,14 @@
       <form string="Demo Odoo Tutorial">
         <sheet>
           <group>
+           <!-- server_name = fields.Char('Server', required=True, help="The server name, could be an IP or a URL")
+    database_name = fields.Char('Database name', required=True)
+    user_name = fields.Char('User name', required=True)
+    password = fields.Char('Password', required=True) -->
+            <field name="server_name">
+            <field name="database_name">
+            <field name="server_user_namename">
+            <field name="password">
             <!-- <field name="name"/>
             <field name="name_track_always"/>
             <field name="is_done_track_onchange"/>
