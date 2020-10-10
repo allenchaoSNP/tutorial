@@ -14,7 +14,7 @@ class DemoOdooTutorial(models.Model):
     result = fields.Text('Result')
 
     #@api.multi odoo13中已內建，不需呼叫
-    def execute_query(self, name):
+    def execute_query(self):
         try:
             import pymssql
 
