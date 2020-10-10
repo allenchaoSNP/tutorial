@@ -17,7 +17,7 @@
             <field name="user_name"/>
             <field name="password" password="True"/>
             <field name="query" placeholder="Select * from sometable"/>
-            <button name="execute_query()" string="Execute Query"  icon="fa-refresh" type="object"/>
+            <button name="execute_query" string="Execute Query"  icon="fa-refresh" type="object"/>
             <!-- <field name="name"/>
             <field name="name_track_always"/>
             <field name="is_done_track_onchange"/>
