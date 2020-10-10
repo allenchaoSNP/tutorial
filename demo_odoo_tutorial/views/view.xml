@@ -12,10 +12,12 @@
     database_name = fields.Char('Database name', required=True)
     user_name = fields.Char('User name', required=True)
     password = fields.Char('Password', required=True) -->
-            <field name="server_name">
-            <field name="database_name">
-            <field name="server_user_namename">
-            <field name="password">
+            <field name="server_name"/>
+            <field name="database_name"/>
+            <field name="user_name"/>
+            <field name="password" password="True"/>
+            <field name="query" placeholder="Select * from sometable"/>
+            <button name="execute_query" string="Execute Query"  icon="fa-refresh" type="object"/>
             <!-- <field name="name"/>
             <field name="name_track_always"/>
             <field name="is_done_track_onchange"/>
@@ -26,6 +28,7 @@
             <field name="input_number"/>
             <field name="field_compute_demo"/> -->
           </group>
+          <field name="result"/>
         </sheet>
         <div class="oe_chatter"><!--model繼承了'mail.thread', 'mail.activity.mixin'才可使用的-->
           <field name="message_follower_ids" widget="mail_followers"/>
