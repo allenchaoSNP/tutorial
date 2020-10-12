@@ -46,6 +46,8 @@ class DemoOdooTutorial(models.Model):
                 self.result = "Statement executed successfully, please check your database or make a select statement."
             conn.close()
 
+# except Exception as e:
+#     self.result=e.msg
         except:
             self.result = "An Error Occurred, please check your parameters!\n" \
                           "And make sure (pymssql) is installed (pip3 install pymssql)."
